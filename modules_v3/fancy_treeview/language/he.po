@@ -1,0 +1,615 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fancy Treeview\n"
+"POT-Creation-Date: 2015-09-05 22:12+0200\n"
+"PO-Revision-Date: 2015-10-21 21:00+0200\n"
+"Last-Translator: Meliza <meliza@amitys.com>\n"
+"Language-Team: \n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-KeywordsList: translate;noop;plural:1,2;translateContext:2,1c\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. I18N: Date prefix for date qualifications, like estimated, about, calculated, from, between etc. Leave the string empty if your language don't need such a prefix. If you do need this prefix, add an extra space at the end of the string to separate the prefix from the date. It is correct the source text is empty, because the source language (en-US) does not need this string.
+#: src/FancyTreeviewClass.php:928
+msgctxt "prefix before dates with date qualifications, followed right after the words birth, death, married, divorced etc. Read the comment for more details."
+msgid " "
+msgstr " "
+
+#. I18N: Warning whenu using the “Check relationship between partners” configuration setting
+#: src/Template/AdminTemplate.php:395
+msgid "<strong>Note</strong>: this option can be time and/or memory consuming, especially on large trees. It can cause very slow page loading or an ’execution time out error’ on your server. If you notice such a behavior, reduce the number of generation blocks to load at once or don’t use it in combination with the option to show singles (see the previous options). If you still experience any problems, don’t use this option at all."
+msgstr "<strong>הערה</strong>: אפשרות זו עלולה להשתמש בזמן ו-/או זיכרון רב, במיוחד בעצים גדולים. היא יכולה לגרום לטעינת דף איטית מאוד או ’לשגיאת זמן עיבוד’ בשרת שלך. אם אתה מבחין בהתנהגות כזו, יש לצמצם את מספר בלוקי הדור שנטענים בבת אחת (ראה האפשרות הקודמת). אם אתה עדיין נתקל בבעיות כלשהן, אל תשתמש באפשרות זו בכלל."
+
+#. I18N: Description of the module
+#: module.php:92
+msgid "A Fancy overview of the descendants of one family(branch) in a narrative way."
+msgstr "סקירה מפוארת של הצאצאים של משפחה אחת (ענף) בדרך סיפורית."
+
+#: src/Template/PageTemplate.php:66
+msgid "Change root person"
+msgstr "שנה את אדם המוצא"
+
+#: src/Template/AdminTemplate.php:387
+msgid "Check relationship between partners"
+msgstr "בדוק מערכת יחסים בין בני זוג"
+
+#. I18N: %s is the surname of the root individual
+#: module.php:366 src/FancyTreeviewClass.php:165 src/Schema/Migration0.php:42
+#: src/Template/AdminTemplate.php:283
+#, php-format
+msgid "Descendants of the %s family"
+msgstr "צאצאים של משפחת %s"
+
+#: module.php:183
+#, php-format
+msgid "Error: A person with ID %s does not exist in this tree"
+msgstr "שגיאה: אדם עם קוד זיהוי %s אינו קיים בעץ הזה"
+
+#: module.php:164
+#, php-format
+msgid "Error: A root person with ID %s already exists"
+msgstr "שגיאה: אדם מוצא עם קוד זיהוי %s קיים כבר"
+
+#: module.php:162
+msgid "Error: The root person belonging to this surname already exists"
+msgstr "שגיאה: אדם המוצא השייך לשם המשפחה הזה כבר קיים"
+
+#: module.php:154
+msgid "Error: The surname you entered doesn’t exist in this tree."
+msgstr "שגיאה: שם המשפחה שהזנת אינו קיים בעץ זה."
+
+#: src/Template/PdfTemplate.php:105
+msgid "Error: the pdf file could not be generated."
+msgstr "שגיאה: לא ניתן ליצור את קובץ ה-pdf"
+
+#: module.php:358
+msgid "Family tree overview"
+msgstr "סקירת עץ משפחה"
+
+#. I18N: Name of the module
+#: module.php:83 src/Template/AdminTemplate.php:40
+msgid "Fancy Treeview"
+msgstr "תצוגת עץ מפוארת"
+
+#: src/Template/PageTemplate.php:57
+msgid "Generate PDF"
+msgstr "צור PDF"
+
+#: src/FancyTreeviewClass.php:320
+msgid "Go"
+msgstr "צא"
+
+#: src/FancyTreeviewClass.php:521
+msgid "He had a relationship with"
+msgstr "לו היה קשר עם"
+
+#. I18N: %s is a number
+#: src/FancyTreeviewClass.php:448
+#, php-format
+msgid "He married %s times"
+msgstr "הוא נישא %s פעמים"
+
+#: src/FancyTreeviewClass.php:737
+msgctxt "PAST"
+msgid "He was baptized"
+msgstr "הוא הוטבל"
+
+#: src/FancyTreeviewClass.php:739
+msgctxt "PRESENT"
+msgid "He was baptized"
+msgstr "הוא הוטבל"
+
+#: src/FancyTreeviewClass.php:720
+msgctxt "PAST"
+msgid "He was born"
+msgstr "הוא נולד"
+
+#: src/FancyTreeviewClass.php:722
+msgctxt "PRESENT"
+msgid "He was born"
+msgstr "הוא נולד"
+
+#. I18N: Help text for the “Resize thumbnails” configuration setting
+#: src/Template/AdminTemplate.php:451
+msgid "Here you can choose to resize the default webtrees thumbnails especially for the Fancy Treeview pages. You can set a custom size in percentage or in pixels. If you choose “no” the default webtrees thumbnails will be used with the formats you have set on the tree configuration page."
+msgstr "כאן תוכל לשנות את גודל התמונות הממוזערות של ברירת המחדל של webtrees במיוחד עבור דפי תצוגת עץ מהודרת. באפשרותך להגדיר גודל מותאם אישית באחוזים או בפיקסלים. אם תבחר ”לא” הממוזערות של webtrees יהיו בשימוש בתבניות שהגדרת בדף התצורה של העץ."
+
+#. I18N: Help text for the “Select your country” configuration setting
+#: src/Template/AdminTemplate.php:429
+msgid "If you have ticked the “Show places” option but NOT the option to abbreviate placenames, you can set your own country here. Full places will be listed on the Fancy Treeview pages, but when a place includes the name of your own country, this name will be left out. If you don’t select a country then all countries will be shown, including your own."
+msgstr "אם בחרת את האפשרות ”הצג מקומות”, אבל לא את האפשרות לקצר את שמות המקומות, באפשרותך להגדיר את המדינה שלך כאן. מקומות מלאים יופיעו בעמודי תצוגת עץ מהודרות, אבל כאשר המקום כולל את שם המדינה שלך, שם זה אינו נכלל. אם לא תבחר מדינה אז כל המדינות תוצגנה, כולל המדינה שלך."
+
+#. I18N: Help text for the “Use default GEDCOM settings to abbreviate place names” configuration setting
+#: src/Template/AdminTemplate.php:416
+msgid "If you have ticked the “Show places” option, you can choose to use the default GEDCOM settings to abbreviate placenames. If you don’t set this option, full place names will be shown."
+msgstr "אם בחרת את האפשרות ”הצג מקומות”, אתה יכול לבחור להשתמש בהגדרות ברירת המחדל של GEDCOM  כדי לקצר שמות מקומות. אם לא תבחר אפשרות זו, יוצגו שמות מקומות מלאים.."
+
+#: src/Template/PdfTemplate.php:99
+msgid "Index"
+msgstr ""
+
+#: src/Template/AdminTemplate.php:365
+msgid "Number of generation blocks to show"
+msgstr "מספר בלוקי דורות שיש להציג"
+
+#: src/Template/AdminTemplate.php:343
+#, php-format
+msgid "Options for %s"
+msgstr "אפשרויות עבור %s"
+
+#: src/Template/AdminTemplate.php:140
+msgid "Or enter an ID"
+msgstr "או הכנס קוד זיהוי"
+
+#: src/Template/AdminTemplate.php:167 src/Template/AdminTemplate.php:237
+msgid "Page title"
+msgstr "כותרת דף"
+
+#: src/Template/AdminTemplate.php:93
+msgid "Pages"
+msgstr "דפים"
+
+#: src/FancyTreeviewClass.php:356
+msgid "Read more"
+msgstr "קרא עוד"
+
+#: src/Template/AdminTemplate.php:445
+msgid "Resize thumbnails"
+msgstr "שנה גודל התמונות הממוזערות"
+
+#: src/Template/AdminTemplate.php:163 src/Template/AdminTemplate.php:233
+msgid "Root person"
+msgstr "אדם מוצא"
+
+#: src/Template/AdminTemplate.php:147 src/Template/PageTemplate.php:71
+msgid "Search ID by name"
+msgstr "חפש קוד זיהוי לפי שם"
+
+#: src/Template/AdminTemplate.php:115
+msgid "Search root person"
+msgstr "חפש את אדם מוצא"
+
+#: src/Template/AdminTemplate.php:423
+msgid "Select your country"
+msgstr "בחר את המדינה שלך"
+
+#: src/FancyTreeviewClass.php:524
+msgid "She had a relationship with"
+msgstr "לה היה קשר עם"
+
+#. I18N: %s is a number
+#: src/FancyTreeviewClass.php:454
+#, php-format
+msgid "She married %s times"
+msgstr "היא נישאה %s פעמים"
+
+#: src/FancyTreeviewClass.php:737
+msgctxt "PAST"
+msgid "She was baptized"
+msgstr "היא הוטבלה"
+
+#: src/FancyTreeviewClass.php:739
+msgctxt "PRESENT"
+msgid "She was baptized"
+msgstr "היא הוטבלה"
+
+#: src/FancyTreeviewClass.php:720
+msgctxt "PAST"
+msgid "She was born"
+msgstr "היא נולדה"
+
+#: src/FancyTreeviewClass.php:722
+msgctxt "PRESENT"
+msgid "She was born"
+msgstr "היא נולדה"
+
+#: src/Template/AdminTemplate.php:494
+msgid "Show PDF icon?"
+msgstr "הצג צלמית PDF?"
+
+#: src/Template/AdminTemplate.php:503
+msgid "Show a Fancy Treeview tab on the individual page"
+msgstr "הצג לשונית של עץ משפחה מפוארת על דף האישי"
+
+#: src/Template/AdminTemplate.php:485
+msgid "Show form to change start person"
+msgstr "הצג טופס לשינוי אדם מוצא"
+
+#: src/Template/AdminTemplate.php:436
+msgid "Show occupations"
+msgstr "הצג מקצועות"
+
+#: src/Template/AdminTemplate.php:401
+msgid "Show places?"
+msgstr "הצג מקומות?"
+
+#: src/Template/AdminTemplate.php:376
+msgid "Show single persons"
+msgstr "הצג רווקים"
+
+#: src/Template/AdminTemplate.php:165 src/Template/AdminTemplate.php:235
+msgid "Surname in page title"
+msgstr "שם משפחה בכותרת דף"
+
+#. I18N: %s is an ordinal
+#: src/FancyTreeviewClass.php:450
+#, php-format
+msgid "The %s time he married"
+msgstr "בפעם ה%s הוא התחתן עם"
+
+#. I18N: %s is an ordinal
+#: src/FancyTreeviewClass.php:456
+#, php-format
+msgid "The %s time she married"
+msgstr "בפעם ה%s היא התחתנה עם"
+
+#. I18N: %s is an ordinal
+#: src/FancyTreeviewClass.php:462
+#, php-format
+msgid "The %s time this individual married"
+msgstr "בפעם ה%s האדם התחתן עם"
+
+#: src/FancyTreeviewClass.php:364
+msgid "The details of this generation are private."
+msgstr "הפרטים של הדור הזה הם פרטיים."
+
+#: src/Template/AdminTemplate.php:350
+msgid "The options for this tree are succesfully reset to the default settings"
+msgstr "האפשרויות עבור העץ הזה אופסו בהצלחה להגדרות ברירת המחדל"
+
+#: src/Template/AdminTemplate.php:349
+msgid "The options for this tree are succesfully saved"
+msgstr "האפשרויות עבור העץ הזה נשמרו בהצלחה"
+
+#: src/Template/PageTemplate.php:58
+msgid "The pdf contains only visible generation blocks."
+msgstr "ה-PDF מכיל בלוקי דור גלויים בלבד."
+
+#: src/Template/AdminTemplate.php:312
+#, php-format
+msgid "The person with root id %s doesn’t exist anymore in this tree"
+msgstr "אדם המוצא עם קוד מזהה %s כבר לא קיים בעץ הזה"
+
+#: src/Template/AdminTemplate.php:225
+msgid "The settings for this tree are succesfully updated"
+msgstr "האפשרויות עבור העץ הזה עודכנו בהצלחה"
+
+#: src/FancyTreeviewClass.php:527
+msgid "This individual had a relationship with"
+msgstr "לאדם הזה היה קשר עם"
+
+#: src/FancyTreeviewClass.php:474
+msgid "This individual married"
+msgstr "האדם הזה התחתן"
+
+#. I18N: %s is a number
+#: src/FancyTreeviewClass.php:460
+#, php-format
+msgid "This individual married %s times"
+msgstr "האדם הזה התחתן %s פעמים"
+
+#. I18N: Help text for the “Number of generation blocks to show” configuration setting
+#: src/Template/AdminTemplate.php:370
+msgid "This option is especially usefull for large trees. When you notice a slow page load, here you can set the number of generation blocks to load at once to a lower level. Below the last generation block a button will appear to add the next set of generation blocks. The new blocks will be added to the blocks already loaded. Clicking on a “follow” link in the last visible generation block, will also load the next set of generation blocks."
+msgstr "אפשרות זו שימושית במיוחד עבור עצים גדולים. כאשר אתה שם לב שיש טעינה אטית של הדף, אתה יכול להגדיר כאן את מספר בלוקי דור שיש לטעון בבת אחת לרמה נמוכה יותר. מתחת לבלוק הדור האחרון יופיע כפתור שבעזרתו ניתן  להוסיף את הסט הבא של בלוקי דור. הבלוקים החדשים יתווספו לבלוקים שכבר נטענו. לחיצה על קישור ”עקוב” בבלוק הדור הגלוי האחרון,  יטעון גם כן את הסט הבא של בלוקי דור."
+
+#: src/Template/AdminTemplate.php:456
+msgid "Thumbnail size"
+msgstr "גודל תמונה ממוזערת"
+
+#. I18N: Help text for the “Show single persons” configuration setting
+#: src/Template/AdminTemplate.php:381
+msgid "Turn this option on if you want to show single persons in the generation blocks. Single persons are persons without partner and children. With this option turned on, every child of a family will be shown in a detailed way in the next generation block."
+msgstr "הפעל אפשרות זו באם אתה רוצה להראות אנשים בודדים בבלוקי הדורות. אנשים בודדים הם אנשים ללא בן זוג וילדים. כאשר אפשרות זו מופעלת, כל ילד של המשפחה יוצג באופן מפורט בבלוק של הדור הבא."
+
+#: src/Template/AdminTemplate.php:410
+msgid "Use default GEDCOM settings to abbreviate place names?"
+msgstr "השתמש בהגדרות ברירת המחדל של GEDCOM לקיצור שמות המקום?"
+
+#: src/Template/AdminTemplate.php:356
+msgid "Use fullname in menu"
+msgstr "השתמש בשם המלא בתפריט"
+
+#: src/Template/AdminTemplate.php:476
+msgid "Use square thumbnails"
+msgstr "השתמש בתמונות ממוזערות מרובעות"
+
+#. I18N: Help text for creating Fancy Treeview pages
+#: src/Template/AdminTemplate.php:105
+msgid "Use the search form below to search for a root person. After a successful search the Fancy Treeview page will be automatically created. You can add as many root persons as you want."
+msgstr "השתמש בטופס החיפוש שלמטה כדי לחפש אדם מוצא. לאחר חיפוש מוצלח דף תצוגת עץ מפוארת נוצר באופן אוטומטי. אתה יכול להוסיף אנשי מוצא רבים ככל שתרצה."
+
+#. I18N: Help text for the “Check relationship between partners” configuration setting
+#: src/Template/AdminTemplate.php:393
+msgid "With this option turned on, the script checks if a (married) couple has the same ancestors. If a relationship between the partners is found, a text will appear between brackets after the spouses’ name to indicate the blood relationship."
+msgstr "כאשר אפשרות זו מופעלת, התוכנה בודקת אם לזוג (נשוי) יש אותם אבות. אם נמצאו יחסים בין בני הזוג, יופיע טקסט בסוגריים אחרי שמו של בן הזוג כדי לציין את מערכת היחסים. "
+
+#: src/FancyTreeviewClass.php:602
+msgctxt "FEMALE"
+msgid "adopted child"
+msgstr "בת מאומצת"
+
+#: src/FancyTreeviewClass.php:605
+msgctxt "MALE"
+msgid "adopted child"
+msgstr "בן מאומץ"
+
+#: src/FancyTreeviewClass.php:667
+msgid "adopted child of"
+msgstr "ילד מאומץ ע״י"
+
+#: src/FancyTreeviewClass.php:658
+msgid "adopted daughter of"
+msgstr "בת מאומצת ע״י"
+
+#: src/FancyTreeviewClass.php:649
+msgid "adopted son of"
+msgstr "בן מאומץ ע״י"
+
+#. I18N: Note the space at the end of the string
+#: src/FancyTreeviewClass.php:509 src/FancyTreeviewClass.php:548
+#: src/FancyTreeviewClass.php:561 src/FancyTreeviewClass.php:578
+#: src/FancyTreeviewClass.php:680 src/FancyTreeviewClass.php:788
+msgid "and "
+msgstr "ו"
+
+#. I18N: %s is the age of death in days/months; %s is a string, e.g. at the age of 2 months
+#: src/FancyTreeviewClass.php:805
+#, php-format
+msgctxt "age in days/months"
+msgid "at the age of %s"
+msgstr "בגיל %s"
+
+#. I18N: %s is the age of death in years; %s is a number, e.g. at the age of 40
+#: src/FancyTreeviewClass.php:807
+#, php-format
+msgctxt "age in years"
+msgid "at the age of %s"
+msgstr "בגיל %s שנים"
+
+#: src/FancyTreeviewClass.php:1152
+msgid "cancel"
+msgstr "בטל"
+
+#: src/FancyTreeviewClass.php:669
+msgid "child of"
+msgstr "ילד/ה של"
+
+#: src/FancyTreeviewClass.php:789
+msgctxt "FEMALE"
+msgid "died"
+msgstr "נפטרה"
+
+#: src/FancyTreeviewClass.php:789
+msgctxt "MALE"
+msgid "died"
+msgstr "נפטר"
+
+#: src/FancyTreeviewClass.php:441
+msgid "eighth"
+msgstr "שמינית"
+
+#: src/FancyTreeviewClass.php:438
+msgid "fifth"
+msgstr "חמישית"
+
+#: src/FancyTreeviewClass.php:434
+msgid "first"
+msgstr "ראשונה"
+
+#: src/FancyTreeviewClass.php:1150
+msgid "follow"
+msgstr "עקוב"
+
+#: src/FancyTreeviewClass.php:592
+msgctxt "FEMALE"
+msgid "foster child"
+msgstr "אומנה"
+
+#: src/FancyTreeviewClass.php:595
+msgctxt "MALE"
+msgid "foster child"
+msgstr "אומנה"
+
+#: src/FancyTreeviewClass.php:665
+msgid "foster child of"
+msgstr "ילד אומנה של"
+
+#: src/FancyTreeviewClass.php:656
+msgid "foster daughter of"
+msgstr "בת אומנה של"
+
+#: src/FancyTreeviewClass.php:647
+msgid "foster son of"
+msgstr "בן אומנה של"
+
+#: src/FancyTreeviewClass.php:437
+msgid "fourth"
+msgstr "רביעית"
+
+#: src/FancyTreeviewClass.php:569
+msgctxt "One parent/multiple children"
+msgid "had"
+msgstr "היו"
+
+#: src/FancyTreeviewClass.php:551 src/FancyTreeviewClass.php:571
+msgctxt "One parent/one child"
+msgid "had"
+msgstr "היה"
+
+#: src/FancyTreeviewClass.php:563
+msgctxt "Two parents/multiple children"
+msgid "had"
+msgstr "היו"
+
+#: src/FancyTreeviewClass.php:549 src/FancyTreeviewClass.php:565
+msgctxt "Two parents/one child"
+msgid "had"
+msgstr "היה"
+
+#. I18N: Note the space at the end of the string
+#: src/FancyTreeviewClass.php:934
+msgctxt "before dateformat mmm yyyy"
+msgid "in "
+msgstr "ב"
+
+#. I18N: Note the space at the end of the string
+#: src/FancyTreeviewClass.php:937
+msgctxt "before dateformat yyyy"
+msgid "in "
+msgstr "ב-"
+
+#. I18N: Note the space at the end of the string
+#: src/FancyTreeviewClass.php:955
+msgctxt "before placesnames"
+msgid "in "
+msgstr "ב-"
+
+#: src/FancyTreeviewClass.php:442
+msgid "ninth"
+msgstr "תשיעית"
+
+#: src/FancyTreeviewClass.php:1151 src/Template/AdminTemplate.php:153
+msgid "ok"
+msgstr "בסדר"
+
+#. I18N: Note the space at the end of the string
+#: src/FancyTreeviewClass.php:931
+msgctxt "before dateformat dd-mm-yyyy"
+msgid "on "
+msgstr "ב-"
+
+#: src/Template/AdminTemplate.php:469
+msgid "percent"
+msgstr "אחוז"
+
+#: src/Template/AdminTemplate.php:133
+msgid "search"
+msgstr "חפש"
+
+#: src/FancyTreeviewClass.php:435
+msgid "second"
+msgstr "שניה"
+
+#: src/FancyTreeviewClass.php:440
+msgid "seventh"
+msgstr "שביעית"
+
+#: src/FancyTreeviewClass.php:439
+msgid "sixth"
+msgstr "שישית"
+
+#: src/FancyTreeviewClass.php:443
+msgid "tenth"
+msgstr "עשירית"
+
+#: src/FancyTreeviewClass.php:436
+msgid "third"
+msgstr "שלישית"
+
+#: src/FancyTreeviewClass.php:746
+msgctxt "PRESENT (MALE)"
+msgid "was bapitized"
+msgstr "הוטבל"
+
+#: src/FancyTreeviewClass.php:744
+msgctxt "PAST (FEMALE)"
+msgid "was baptized"
+msgstr "הוטבלה"
+
+#: src/FancyTreeviewClass.php:744
+msgctxt "PAST (MALE)"
+msgid "was baptized"
+msgstr "הוטבל"
+
+#: src/FancyTreeviewClass.php:746
+msgctxt "PRESENT (FEMALE)"
+msgid "was baptized"
+msgstr "הוטבלה"
+
+#: src/FancyTreeviewClass.php:727
+msgctxt "PAST (FEMALE)"
+msgid "was born"
+msgstr "נולדה"
+
+#: src/FancyTreeviewClass.php:727
+msgctxt "PAST (MALE)"
+msgid "was born"
+msgstr "נולד"
+
+#: src/FancyTreeviewClass.php:729
+msgctxt "PRESENT (FEMALE)"
+msgid "was born"
+msgstr "נולדה"
+
+#: src/FancyTreeviewClass.php:729
+msgctxt "PRESENT (MALE)"
+msgid "was born"
+msgstr "נולד"
+
+#: src/FancyTreeviewClass.php:509
+msgid "were divorced"
+msgstr "התגרשו"
+
+#, fuzzy
+#~ msgid "%s child"
+#~ msgid_plural "%s children"
+#~ msgstr[0] "אומנה"
+#~ msgstr[1] "אומנה"
+
+#, fuzzy
+#~ msgid "Children of "
+#~ msgstr "ילד/ה של"
+
+#, fuzzy
+#~ msgid "Descendants of %s"
+#~ msgstr "צאצאים של משפחת %s"
+
+#, fuzzy
+#~ msgid "Family tree"
+#~ msgstr "סקירת עץ משפחה"
+
+#, fuzzy
+#~ msgid "Generation"
+#~ msgstr "צור PDF"
+
+#, fuzzy
+#~ msgid "Generations"
+#~ msgstr "צור PDF"
+
+#, fuzzy
+#~ msgid "He died"
+#~ msgstr "התגרשו"
+
+#, fuzzy
+#~ msgid "He married"
+#~ msgstr "הוא נשוי %s פעמים"
+
+#, fuzzy
+#~ msgid "She died"
+#~ msgstr "התגרשו"
+
+#, fuzzy
+#~ msgid "She married"
+#~ msgstr "היא נישאה %s פעמים"
+
+#, fuzzy
+#~ msgid "The details of this family are private."
+#~ msgstr "הפרטים של הדור הזה הם פרטיים."
+
+#, fuzzy
+#~ msgid "children"
+#~ msgstr "ילד/ה של"
+
+#, fuzzy
+#~ msgid "daughter of"
+#~ msgstr "בת אומנה של"
+
+#, fuzzy
+#~ msgid "son of"
+#~ msgstr "בן אומנה של"
